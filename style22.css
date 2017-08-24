@@ -1,0 +1,116 @@
+
+body {
+    background-image: url("info.JPG");
+    background-size: cover;
+}
+
+.header {
+    padding: 1%;
+    font-family: Times ;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+    color: #58FAF4;
+    text-align: left;
+}
+
+
+.main {
+    padding: 2%;
+}
+
+
+.gridcontainer {
+    width: 100%;
+
+
+}
+
+.gridbox {
+    margin-bottom: 3%;
+    margin-right: 5%;
+    float: left;
+}
+
+.gridheader {
+    width: 100%;
+    
+}
+
+.gridetat {
+background-color: rgba(0,0,0,0.3);
+color: #58FAF4;
+   width: 19.5%
+
+}
+
+.gridetude {
+    background-color: rgba(0,0,0,0.3);
+    color: #58FAF4;
+   width: 19.5%
+}
+
+.gridcom {
+    background-color: rgba(0,0,0,0.3);
+    color: #58FAF4;
+    width: 19.5%
+    
+}
+.gridprofil {
+  background-color: rgba(0,0,0,0.3);
+   color: #58FAF4;
+    width: 19.5%
+    
+    }
+
+
+@media all and (max-width: 1024px) {
+
+     body{
+       background-image: none;
+       background-color: #331100;
+
+        }
+
+     .header{
+       text-align: center;
+       color: #996600;
+       }
+  
+      .gridetat {
+        width: 100%;
+        color: #996600;
+       }
+
+
+      .gridetude {
+        width: 100%;
+        color: #996600;
+      }
+
+      .etude {
+        padding: 0%;
+      }
+    
+      .gridcom {
+        width: 100%;
+        color: #996600;
+       }
+
+
+    
+      .gridprofil {
+        width: 100%;
+        color: #996600;
+       }
+
+      .profil {
+        padding: 0%;
+         }
+
+      .gridbox {
+        margin-right: 0;
+        float: left;
+     }
+}
